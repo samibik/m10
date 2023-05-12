@@ -121,7 +121,7 @@
             g.lineJoin = "round";    
             g.lineWidth = 10.0;   
             var metrics = g.measureText(topText);
-            g.translate(margin + (canvas.width - metrics.width - margin * 2.5) * 0.5, margin);
+            g.translate(margin + (canvas.width - metrics.width - margin * 2.5 ) * 0.5, margin);
             var x = 0;
             for(var i = 0; i < topText.length; i++){
                 var c = topText.slice(i, i + 1);
